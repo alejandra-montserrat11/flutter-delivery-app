@@ -94,13 +94,18 @@ class LoginPage extends StatelessWidget{
                             fontSize: 15.0),
                       ),
 
-                        Container(
-                          margin: EdgeInsets.symmetric(horizontal: 10),
-                          child: Text("Sign up",
-                            style: TextStyle(
-                                color: Theme.of(context).hintColor,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 15.0),
+                        GestureDetector(
+                          onTap: (){
+                            Navigator.pushNamed(context, 'signUp');
+                          },
+                          child: Container(
+                            margin: EdgeInsets.symmetric(horizontal: 10),
+                            child: Text("Sign up",
+                              style: TextStyle(
+                                  color: Theme.of(context).hintColor,
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 15.0),
+                            ),
                           ),
                         )
 
