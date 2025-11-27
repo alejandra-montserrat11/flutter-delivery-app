@@ -69,11 +69,16 @@ class LoginPage extends StatelessWidget{
 
                     Container(
                       margin: EdgeInsets.only(top: 20.0),
+                      child: GestureDetector(
+                        onTap: (){
+                          Navigator.pushNamed(context, 'forgotPassword');
+                        },
                       child: Text("Forgot your password?",
                       style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.w400,
                           fontSize: 17.0),
+                    ),
                     ),
                     ),
 
@@ -122,7 +127,7 @@ class LoginPage extends StatelessWidget{
       padding: EdgeInsets.only(left: 20.0),
 
       decoration: BoxDecoration(
-        color: Color.fromRGBO(142, 142, 147, 1.2),
+        color: grisClaro,
         borderRadius: BorderRadius.circular(30.0),
       ),
 
@@ -144,7 +149,7 @@ class LoginPage extends StatelessWidget{
       padding: EdgeInsets.only(left: 20.0),
 
       decoration: BoxDecoration(
-        color: Color.fromRGBO(142, 142, 147, 1.2),
+        color: grisClaro,
         borderRadius: BorderRadius.circular(30.0),
       ),
 
