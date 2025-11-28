@@ -2,9 +2,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_delivery_app/src/widgets/back_button.dart';
 
-import '../colors/colors.dart';
+import '../../../../colors/colors.dart';
+import '../../widgets/back_button.dart';
 
 class LoginPage extends StatelessWidget{
   @override

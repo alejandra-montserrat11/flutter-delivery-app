@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_delivery_app/src/tabs/profile_tab.dart';
+import 'package:flutter_delivery_app/src/features/presentation/tabs/profile_tab.dart';
 
-import '../colors/colors.dart';
+import '../../../colors/colors.dart';
 import 'explore_tab.dart';
 import 'favourite_tab.dart';
 import 'my_order_tab.dart';
