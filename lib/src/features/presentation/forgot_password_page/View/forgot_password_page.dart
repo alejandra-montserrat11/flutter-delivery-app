@@ -2,7 +2,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_delivery_app/src/colors/colors.dart';
-import 'package:flutter_delivery_app/src/widgets/back_button.dart';
+
+import '../../widgets/back_button.dart';
 
 class ForgotPasswordPage extends StatelessWidget{
 
