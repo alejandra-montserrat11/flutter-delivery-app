@@ -2,6 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_delivery_app/src/pages/forgot_password_page.dart';
 import 'package:flutter_delivery_app/src/pages/sign_up_page.dart';
+import 'package:flutter_delivery_app/src/tabs/tabs_page.dart';
 
 //pages
 import '../pages/login_page.dart';
@@ -13,5 +14,6 @@ final routes = <String, WidgetBuilder>{
   'login' : (BuildContext context) => LoginPage(),
   'forgotPassword' : (BuildContext context) => ForgotPasswordPage(),
   'signUp' : (BuildContext context) => SignUpPage(),
+  'tabs' : (BuildContext context) => TabsPage(),
 
 };
