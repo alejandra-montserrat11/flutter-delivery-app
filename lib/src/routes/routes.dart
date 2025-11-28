@@ -15,5 +15,4 @@ final routes = <String, WidgetBuilder>{
   'forgotPassword' : (BuildContext context) => ForgotPasswordPage(),
   'signUp' : (BuildContext context) => SignUpPage(),
   'tabs' : (BuildContext context) => TabsPage(),
-
 };
